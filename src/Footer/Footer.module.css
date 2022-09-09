@@ -1,0 +1,51 @@
+.changeContainer {
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    background-color: #a8c9ff;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    height: 150px;
+}
+
+.hire button {
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 23px;
+}
+input{
+    border: none;
+    width: 250px;
+    height: 25px;
+    background-color: #3735646b;
+    border-radius: 5px;
+
+}
+
+textarea{
+    border: none;
+    background-color: #3735646b;
+    height: 40px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    background-color: white;
+    width: 90px;
+    height: 30px;
+}
+

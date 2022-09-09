@@ -1,0 +1,25 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    background-color: rgba(186, 208, 183, 0.9);
+    min-height: 400px;
+    margin-top: 35px;
+}
+
+.view {
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+
+}
+
+.description {
+    width: 100%;
+    background-color: rgb(201, 225, 255);
+    padding: 20px;
+
+}
