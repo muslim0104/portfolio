@@ -1,0 +1,74 @@
+.imgBlock {
+
+    width: 60px;
+    min-height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+.mainBlock {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 23px;
+    min-height: 300px;
+    width: 300px;
+
+}
+
+.secondBlock {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+
+
+}
+
+.titleBlock {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillBlock {
+    background-color: #282c34;
+
+}
+
+.block {
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 1px red solid;
+    margin: 10px;
+
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #18191d;
+    font-family: 'Syne', sans-serif;
+    margin-top: 10px;
+
+}
+
+
+p {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+
+    color: #868a9b;
+    font-weight: 400;
+}
+

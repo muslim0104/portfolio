@@ -1,0 +1,75 @@
+@import "./../sass/mixins";
+
+.skillContainer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainBlockworks {
+
+  @include rootPosition();
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    height: min-content;
+    z-index: -3;
+    filter: grayscale(0%);
+
+}
+
+
+
+.textBlock div h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'Syne', sans-serif;
+}
+
+.textBlock   {
+
+    width: 100%;
+    height: 150px;
+}
+
+.textBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+
+.changeContainerworks {
+
+  flex-direction: column;
+  padding-bottom: 82px;
+
+
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.textBlock div p {
+  font-family: 'Syne', sans-serif;
+  color: #868a9b;
+  font-size: 16px;
+  line-height: 1.75em;
+  font-weight: 400;
+  margin-bottom: 4px;
+}

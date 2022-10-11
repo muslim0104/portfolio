@@ -1,0 +1,14 @@
+@mixin text($fontfamily,$fontweight,$fontsize){
+  font-weight: $fontweight;
+  font-size: $fontsize;
+  font-family: $fontfamily;
+}
+
+@mixin rootPosition(){
+
+    min-height: min-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
